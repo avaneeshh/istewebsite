@@ -97,7 +97,14 @@ html{
 
 .secondHalf{
     width: 30%;
-background-image="img1.jpg
+}
+}
+.secondhalf img{
+    width: 30%;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 5px;
+
 }
 
 
