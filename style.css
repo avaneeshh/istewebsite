@@ -97,17 +97,10 @@ html{
 
 .secondHalf{
     width: 30%;
-}
-}
-.secondhalf img{
-    width: 30%;
     border: 3px solid white;
     border-radius: 50px;
     margin: 5px;
-
 }
-
-
 
 .text-big{
     font-size: 41px;
