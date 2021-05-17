@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 *{
     margin: 0;
@@ -74,7 +73,6 @@ html{
 
 .firstSection{
     height: 100vh;
-    background-image: url('img1.jpg');
 }
 
 .box-main{
@@ -90,33 +88,25 @@ html{
 
 .firstHalf{
     width: 80%;
-    display:block;
+    display: ;
     flex-direction: column;
     justify-content: center;
-    background-image: url("img.jpg") ;
+    background: img,img.jpg;
     
 }
 
 .secondHalf{
     width: 30%;
-background-image: url("img1.jpg");
+background-image="img,img.jpg
 }
+
+
+
 .text-big{
     font-size: 41px;
 }
-.secondHalf img{
-    width: 70%; 
-    border: 4px solid white;
-    border-radius: 150px;
-    display: block;
-    margin: auto;
-}
 
-.ourcompany{
-    font-size: 41px;
-}
-
-.companyinfo{
+.text-small{
     font-size: 18px;
 }
 
@@ -170,53 +160,48 @@ background-image: url("img1.jpg");
 }
 
 .thumbnail img{
-    width: 250px;
-    border: 2px solid black;
+    width: 150px;
+    border: 1px solid black;
     border-radius: 26px;
-    margin-top: 19px;
+    margin-top: 10px;
+    padding:20px
 }
 
 .contact{
-    /* background-color: #f6f5f4; */
-    /* background-image: linear-gradient(to top, #051937, #3e205b, #850464, #c5004c, #eb1212); */
-    background-image: linear-gradient(to right, #16e1db, #6fe5fd, #b2e8ff, #e1ecff, #f7f7f7);
-    color: azure;
-    height: 100%;
-    font-size: larger;
+    background-color: #f6f5f4;
+    height: 833px;
 }
-/* .form-input{
-    color: azure;
-    font-size: 2.5rem;
-} */
 .text-center{
 
     text-align: center;
-    padding-top: 40px;
+    padding-top: 30px;
    font-family: 'Ubuntu', sans-serif;
-    font-size: 35px;
+       font-size: 35px;
 }
 
-form{
-    max-width: 64%;
-    margin: 15px auto;
+.form{
+    max-width: 62%;
+    margin: 25px auto;
 }
 
 .form-input{
-    margin: 30px 0;
+    margin: 14px 0;
     padding: 5px 13px;
     width: 100%; 
     font-size: 19px;
     border: 2px solid grey;
-    border-radius: 33px;
+    border-radius: 6px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif; 
-    display: inline-flex;
-    justify-content: center;
-    background: url('bg.jpg') no-repeat center center/cover;
-    color: azure;
 }
-
+.text-footer{
+    text-align: center;
+    padding: 30px 0;
+   font-family: 'Ubuntu', sans-serif; 
+   display: flex;
+   justify-content: center;
+   color: white;
+   
+}
 
 .burger{
     display: none;
@@ -230,12 +215,4 @@ form{
     background-color: white;
     height: 4px;
     margin: 5px 3px;
-}
-
-footer{
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 15px ;
-    margin-left: 600px;
-    /* background-color: cadetblue; */
 }
